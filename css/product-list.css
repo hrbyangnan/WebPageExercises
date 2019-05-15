@@ -1,0 +1,198 @@
+.leftContent{
+    padding:0;
+}
+.productNav{
+    background:#fff;
+}
+.productNav li{
+    list-style: none;
+}
+.productNav>ul>li{
+    color:#272727;
+    font-size:16px;
+    font-weight:bolder;
+    border-bottom:1px solid #efefef;
+    letter-spacing:2px;
+}
+.productNav span{
+    display: block;
+    padding:15px 0 15px 25px;
+    position:relative;
+}
+.productNav i{
+    font-size:12px;
+    color:#6f6f6f;
+    position: absolute;
+    right:15px;
+    top:0;
+    line-height:52px;
+    transition:transform 0.3s;
+}
+.innerContent li{
+    font-size:14px;
+    color:#6f6f6f;
+    font-weight:normal;
+    background:#f8f4f4;
+    border-bottom:1px solid #eeeeee;
+    padding:10px 10px 10px 35px;
+}
+.innerContent li:last-child{
+    border-bottom:none;
+}
+.productNav span:hover,.innerContent li:hover,.navEffect{
+    color:#e2114b;
+    cursor: pointer;
+}
+.innerContent{
+    display:none;
+}
+.iconEffect{
+    transform: rotate(90deg);
+}
+.card{
+    background:#fff;
+    margin-top:30px;
+}
+.cardTitle{
+    color:#272727;
+    font-size:16px;
+    font-weight:bolder;
+    border-bottom:1px solid #efefef;
+    letter-spacing:2px;
+    padding:12px 0 12px 25px;
+}
+.priceRange2{
+    padding:12px 0 12px 25px; 
+    color:#6f6f6f;
+}
+.priceRange3{
+    margin:30px 0;
+    position:relative;
+    width:200px;
+}
+.cardItem{
+    padding:10px 0 10px 25px;
+    border-bottom:1px solid #efefef;
+    color:#6f6f6f;
+}
+.cardItem:hover{
+    cursor: pointer;
+}
+.colorCard{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:5px;
+    background:black;
+    margin-right:5px;
+}
+.sizeChosen span{
+    color:#6f6f6f;
+    display: block;
+    width:20%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    border-right:1px solid #efefef;
+    float:left;
+}
+.sizeChosen span:hover{
+    background:#4e4d4d;
+    color:#fff;
+    cursor: pointer;
+}
+.brands{
+    height:300px;
+    overflow:scroll;
+}
+/**********滚动条************/
+.brands::-webkit-scrollbar{
+    width: 6px;
+}
+.brands::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color:rgba(102,102,102,0);
+}
+.brands:hover::-webkit-scrollbar-thumb{
+    background-color:rgba(102,102,102,1);
+}
+.brands li{
+    list-style: none;
+    padding:10px 0 10px 25px;
+    color:#6f6f6f;
+    border-bottom:1px solid #efefef;
+}
+.gift{
+    position:relative;
+}
+.gift>div{
+    position:absolute;
+    top:10%;
+    left:5%;
+}
+.gift>div>p{
+    font-size:16px;
+    letter-spacing: 2px;
+    color:#4d4646;
+}
+.gift>div>h1{
+    font-size:50px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color:#fff;
+}
+.gift>div>button{
+    color:#fff;
+    border:2px solid #fff;
+    padding:5px 25px;
+    background:transparent;
+    margin:45px 0 0 40px;
+}
+.gift>div>button:hover{
+    color:#e2114b;
+    background:#fff;
+}
+.list{
+    padding-right:10px;
+}
+.list>i{
+    font-size:24px;
+    float:right;
+    margin:0 10px;
+    cursor: pointer;
+}
+.listChosen{
+    color:#e2114b;
+}
+.productGift{
+    margin-top:30px;
+}
+.relativeImg{
+    margin-top:20px;
+}
+.tab2{
+    display:none;
+}
+.tab2Item{
+    margin-bottom:20px!important;
+}
+.tab2Item .col-xs-7>h2,.tab2Item .col-xs-7>h3{
+    font-weight:bolder;
+}
+.tab2Item .col-xs-7>p{
+    width:80%;
+    height:90px;
+    margin:35px 0 ;
+    color:#4e4d4d;
+    overflow: auto;
+}
+.tab2Item .col-xs-7 i:not(.glyphicon-heart){
+    color:#eabe12;
+}
+.tab2add{
+    background:#272727;
+    color:#fff;
+    border:none;
+    padding:10px 25px;
+    margin:0 20px 0 0;
+}

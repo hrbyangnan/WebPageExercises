@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Product Detail||Moon</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <!-- host -->
+	<link rel="stylesheet" type="text/css" href="css/shoppingcar.css">
+	<link rel="stylesheet" type="text/css" href="css/product-man.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<style>
+	.banner{
+			height: 350px;
+			background:url(./img/page-banner.jpg) center no-repeat;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+    <!--------------------------- Header Nav ------------------------->
+<div class="header-nav">
+    <div class="container">
+        <div class="row">
+            <div class="header-left col-xs-6">
+                <ul>
+                    <li><a href="">注 册</a></li>
+                    <li class="header-line"></li>
+                    <li><a href="">登 陆</a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div class="header-right col-xs-6">
+                <ul class="header-right-com">
+                    <li class="header-right-mon"><span>USD<i class="glyphicon glyphicon-menu-down"></i></span>
+                        <div class="clearfix"></div>
+                        <ul class="header-menu1">
+                            <em></em>
+                            <li><a href="">USD</a></li>
+                            <li><a href="">URO</a></li>
+                            <li><a href="">GRP</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-right-lan"><span>语言<i class="glyphicon glyphicon-menu-down"></i></span>
+                        <div class="clearfix"></div>
+                        <ul class="header-menu2">
+                            <em></em>
+                            <li><a href="">西班牙语</a></li>
+                            <li><a href="">法语</a></li>
+                            <li><a href="">英语</a></li>
+                        </ul>
+                    </li>
+                    <div class="clearfix"></div>
+                </ul>   
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------- Middle Nav ------------------------->
+<div class="middle-nav container">
+    <div class='col-md-2 col-sm-6 col-xs-6'>
+        <a herf="" class="middle-logo"><img src="./img/logo.png"></a>
+    </div>
+    <div class='col-md-7 hidden-sm hidden-xs'>
+        <ul class="middle-nav1">
+            <li class="home">
+                <span>首页</span>
+                <ul class="homeMenu">
+                    <em></em>
+                    <li><a href="./host.html">首页一</a></li>
+                    <li><a href="./host2.html">首页二</a></li>
+                </ul>
+            </li>
+            <li class="goods">
+                <span class="underline">商品</span>
+                <ul class="goodsMenu">
+                    <em></em>
+                    <li><span>配饰</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list1.html">太阳镜</a></li>
+                            <li><a href="./product-list1.html">皮革</a></li>
+                            <li><a href="./product-list1.html">皮带</a></li>
+                            <li><a href="./product-list1.html">戒指</a></li>
+                            <li><a href="./product-list1.html">包包</a></li>
+                            <li><a href="./product-list1.html">项链</a></li>
+                        </ul>
+                    </li>
+                    <li><span>男装</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list2.html">衬衫</a></li>
+                            <li><a href="./product-list2.html">大衣</a></li>
+                            <li><a href="./product-list2.html">牛仔裤</a></li>
+                            <li><a href="./product-list2.html">皮衣</a></li>
+                            <li><a href="./product-list2.html">夹克</a></li>
+                            <li><a href="./product-list2.html">休闲裤</a></li>
+                        </ul>
+                    </li>
+                    <li><span>女装</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list3.html">衬衫</a></li>
+                            <li><a href="./product-list3.html">连衣裙</a></li>
+                            <li><a href="./product-list3.html">T恤</a></li>
+                            <li><a href="./product-list3.html">吊带连衣裙</a></li>
+                            <li><a href="./product-list3.html">牛仔裤</a></li>
+                            <li><a href="./product-list3.html">休闲短裤</a></li>
+                        </ul>
+                    </li>
+                    <img class="menuImg" src="./img/menu-image.png">
+                    <div class="clearfix"></div>
+                </ul>
+            </li>
+            <li class="home">
+                <span>我的</span>
+                <ul class="homeMenu">
+                    <em></em>
+                    <li><a href="./shopping-car.html">购物车</a></li>
+                    <li><a href="./checked.html">结算</a></li>
+                    <li><a href="./receive.html">待收货</a></li>
+                    <li><span class="home2">商品详情</span>
+                        <ul class="homeMenu2">
+                            <em></em>
+                            <li><a href="./product-list1.html">商品一</a></li>
+                            <li><a href="./product-list2.html">商品二</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./single.html">单页</a></li>
+                    <li><a href="./error404.html">404</a></li>
+                </ul>
+            </li>
+            <li class="blog"><span><a href="./blog.html">博客</a></span></li>
+            <li class="contact"><span><a href="./contact.html">联系</a></span></li>
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+    <div class="col-md-3 col-sm-6 text-right sAndc">
+        <span class="middle-search hidden-xs">
+            <i class="searchIcon glyphicon glyphicon-search"></i>
+            <input class="search" type="text" name="" placeholder="搜索..."> 
+        </span>
+        <span class="middle-cart">
+            <i class="glyphicon glyphicon-shopping-cart"></i>
+            <ul class="checkedCart">
+                    <em></em>
+                    <li style="color:#9b9b9c;border-bottom:1px solid #9b9b9c;height:30px;line-height: 30px;letter-spacing: 2px;">购物车</li>
+                    <li style="padding:15px 20px;">
+                        <div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/1.jpg"></div>
+                        <div class="putll-right" style="text-align: left;">
+                            <div style="position: relative;">窄脚裤</div>
+                            <div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+                            <div style="color:#e2214b;font-size: 16px;">$ 99 × 1</div>
+                            <i style="font-size:16px;position: absolute;color: #9b9b9c;top:3px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+                        </div>
+                    </li>
+                    <li style="padding:15px 20px;">
+                        <div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/2.jpg"></div>
+                        <div class="putll-right" style="text-align: left;">
+                            <div style="position: relative;">眼睛太阳镜</div>
+                            <div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+                            <div style="color:#e2214b;font-size: 16px;">$ 199 × 5</div>
+                            <i style="font-size:16px;position: absolute;color: #9b9b9c;top:93px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li style="text-align: center;font-size:16px;border-top:1px solid #9b9b9c;border-bottom:1px solid #9b9b9c;padding:8px 0;">
+                        <div class="pull-left" style="width:120px;">总数</div>
+                        <div class="pull-right" style="width:120px;">$ 1094.99</div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li style="padding:8px 0;color:#9b9b9c;font-size:12px">查看购物车<i style="font-size:10px;height:10px;line-height: 10px;font-weight: bolder;" class="glyphicon glyphicon-menu-right"></i></li>
+                    <li style="background-color: #efefef;padding:5px 0">
+                        <button >进入结算</button>
+                    </li>
+                </ul>
+        </span>
+    </div>
+</div>
+<!-------------------------------------Content ----------------------------------->
+<!-------- Banner -------->
+<div class="banner">
+	
+	<h1>男士 时尚</h1>
+</div>
+<!-------- Content -------->
+<div class="manContent">
+	<div class="container" style="background-color: #fff;">
+		<div class="row">
+			<div class="col-md-6" style="border-right:1px solid #efefef;">
+				<div class="productItem">
+					<div style="color:#9b9b9c;margin-bottom:8px;">皮 鞋</div>
+					<div><span style="color:#000;font-weight: bolder;font-size: 28px;">男士 休闲</span><span style="padding:10px 20px 0 0;float:right;color:#ffcc00;"><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i></span></div>
+					<ul class="nav nav-tabs tabs1">
+					  <li role="presentation" class="active">产品描述</li>
+					  <li role="presentation">热门</li>
+					  <li role="presentation">评价</li>
+					  <div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="productContent">
+					<div class="detail1">
+						<p style="color:#9b9b9c;">老人头男鞋2019春季新款商务休闲皮鞋男真皮软皮韩版青年系带鞋子 头层牛皮 减震厚底防滑 舒适软底</p>
+						<div class="row">
+							<div class="color col-sm-6">
+								<h4>颜色：</h4>
+								<ul>
+									<li style="background: #343434"><a href=""></a></li>
+									<li style="background: #b96d00"><a href=""></a></li>
+									<li style="background: #511d00"><a href=""></a></li>
+									<li style="background: #1e136b"><a href=""></a></li>
+									<div class="clearfix"></div>
+								</ul>							
+							</div>
+							<div class="size col-sm-6">
+								<h4>尺寸：</h4>
+								<ul>
+									<li><a href="">38</a></li>
+									<li><a href="">39</a></li>
+									<li><a href="">40</a></li>
+									<li><a href="">41</a></li>
+									<li><a href="">42</a></li>
+									<div class="clearfix"></div>
+								</ul>
+							</div>
+						</div>
+						<div class="pmanPrice">
+							<span>$259.00</span>
+							<span>$380.00</span>
+						</div>
+						<div class="addCart row">
+							<span style="font-size: 18px;">数量</span>
+							<div>
+								<input class="quantity" type="text" name="" value="0">
+								<button class="pmBtn1"><i class="glyphicon glyphicon-triangle-top"></i></button>
+								<button class="pmBtn2"><i class="glyphicon glyphicon-triangle-bottom"></i></button>
+							</div>
+							<button class="btn1"><i class="glyphicon glyphicon-shopping-cart"></i><span>加入购物车</span></button>
+						</div>
+					</div>
+					<div class="detail2">
+						<button>LEATHER SHOE</button>
+						<button>SHOE</button>
+						<button>MAN</button>
+					</div>
+					<div class="detail3">
+						<div class="row" style="border-bottom:1px solid #666;">
+							<div class="col-xs-3"><img src="./img/comments/1.png"></div>
+							<div class="col-xs-9">
+								<div style="font-size:18px;font-weight: bolder;">Mingel Hoops</div>
+								<div style="font-size:13px;color:#9b9b9c;margin:5px 0;">December 28, 2015 at 3:20 pm<span style="float:right;color:#ffcc00;">
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+								</span>
+								</div>
+								<p style="color:#666666;font-size:16px;padding-bottom:15px;">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+							</div>
+						</div>
+						<div class="row" style="margin-top:20px">
+							<div class="col-xs-3"><img src="./img/comments/2.png"></div>
+							<div class="col-xs-9">
+								<div style="font-size:18px;font-weight: bolder;">Mingel Hoops</div>
+								<div style="font-size:13px;color:#9b9b9c;margin:5px 0;">December 28, 2015 at 3:20 pm<span style="float:right;color:#ffcc00;">
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+									<i style="font-size:10px;" class="glyphicon glyphicon-star"></i>
+								</span>
+								</div>
+								<p style="color:#666666;font-size:16px;padding-bottom:15px;">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+							</div>
+						</div>
+						<div style="margin-top:50px;">
+							<h1>Add your review</h1>
+							<div class="row" style="margin:40px 0;">
+								<input class="col-xs-5" style="height:28px;border:1px solid #9b9b9c;" type="text" name="" placeholder="Name">
+								<input class="col-xs-6 col-xs-offset-1" style="height:28px;border:1px solid #9b9b9c;" type="text" name="" placeholder="Email">
+							</div>
+							<div class="pull-left">
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+							</div>
+							<div class="pull-left">
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+							</div>
+							<div class="pull-left">
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+							</div>
+							<div class="pull-left">
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+							</div>
+							<div class="pull-left">
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+								<i style="font-size:12px;" class="glyphicon glyphicon-star"></i>
+							</div>
+							<div class="clearfix"></div>
+							<textarea class="form-control" rows="5" style="margin:20px 0;" placeholder="Message"></textarea>
+							<button style="border:none;background-color:#272727;color:#fff;padding:5px 40px;">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 center-block productImg">
+				<div class="bigImg">
+					<img style="height:auto;margin:0 auto;" src="./img/pro-details/big-1.jpg" class="img-responsive" alt="Responsive image">
+					<img style="display:none;height:auto;margin:0 auto;" src="./img/pro-details/big-2.jpg" class="img-responsive" alt="Responsive image">
+					<img style="display:none;height:auto;margin:0 auto;" src="./img/pro-details/big-3.jpg" class="img-responsive" alt="Responsive image">
+					<img style="display:none;height:auto;margin:0 auto;" src="./img/pro-details/big-4.jpg" class="img-responsive" alt="Responsive image">
+				</div>
+				<ul class="smallImg" style="margin-bottom: 30px">
+					<li class="active1"><img src="./img/pro-details/1.jpg"></li>
+					<li><img src="./img/pro-details/2.jpg"></li>
+					<li><img src="./img/pro-details/3.jpg"></li>
+					<li><img src="./img/pro-details/4.jpg"></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<h2 style="text-align: center;font-weight: bolder;padding:50px 0;">相关 商品</h2>
+	<div class="container" style="position: relative;">
+		<div class="row relativeBanner">
+				<div class="col-lg-3 col-sm-4 hidden-xs">
+						<div class="relativeImg">
+							<div class="mask">
+								<span>
+									<img class="img-responsive" alt="Responsive image" src="./img/product/1.jpg">
+								</span>
+								<div class="maskIcon center-block">
+									<a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a>
+									<a href=""><i class="glyphicon glyphicon-eye-open"></i></a>
+									<a href=""><i style="margin-right:0;" class="glyphicon glyphicon-heart-empty"></i></a>
+								</div>
+								<div class="maskContent">
+									<div class="row">
+										<div class="col-xs-4">
+											<p>Sizes:</p>
+										</div>
+										<div class="col-xs-8">
+											<ul class="maskSize">
+												<li>XS</li>
+												<li>S</li>
+												<li>M</li>
+												<li>L</li>
+												<li style="margin-right:0">XL</li>
+												<div class="clearfix"></div>
+											</ul>			
+										</div>
+									</div>
+									<div class="row">
+											<div class="col-xs-4">
+													<p>Colors:</p>
+											</div>
+											<div class="col-xs-8">
+												<ul class="maskColor">
+													<li style="background-color: #66ccff"></li>
+													<li style="background-color: #FF7F50"></li>
+													<li style="background-color: #9ACD32"></li>
+													<li style="background-color: #B452CD"></li>
+													<li style="margin-right:0;background-color:#8B5742"></li>
+													<div class="clearfix"></div>
+												</ul>				
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="relativeProduct">
+								<div class="pull-left">
+									<h4>针织衫</h4>
+									<p>女装</p>
+								</div>
+								<div class="pull-right">
+									<h4 style="text-align: right;">$ 46</h4>
+									<div><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+				</div>
+				<div class="col-lg-3 col-sm-4 hidden-xs">
+						<div class="relativeImg">
+							<div class="mask">
+								<span>
+									<img class="img-responsive" alt="Responsive image" src="./img/product/2.jpg">
+								</span>
+								<div class="maskIcon center-block">
+									<a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a>
+									<a href=""><i class="glyphicon glyphicon-eye-open"></i></a>
+									<a href=""><i style="margin-right:0;" class="glyphicon glyphicon-heart-empty"></i></a>
+								</div>
+								<div class="maskContent">
+									<div class="row">
+										<div class="col-xs-4">
+											<p>Sizes:</p>
+										</div>
+										<div class="col-xs-8">
+											<ul class="maskSize">
+												<li>XS</li>
+												<li>S</li>
+												<li>M</li>
+												<li>L</li>
+												<li style="margin-right:0">XL</li>
+												<div class="clearfix"></div>
+											</ul>			
+										</div>
+									</div>
+									<div class="row">
+											<div class="col-xs-4">
+													<p>Colors:</p>
+											</div>
+											<div class="col-xs-8">
+												<ul class="maskColor">
+													<li style="background-color: #66ccff"></li>
+													<li style="background-color: #FF7F50"></li>
+													<li style="background-color: #9ACD32"></li>
+													<li style="background-color: #B452CD"></li>
+													<li style="margin-right:0;background-color:#8B5742"></li>
+													<div class="clearfix"></div>
+												</ul>				
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="relativeProduct">
+								<div class="pull-left">
+									<h4>棉麻围巾</h4>
+									<p>时尚</p>
+								</div>
+								<div class="pull-right">
+									<h4 style="text-align: right;">$ 15</h4>
+									<div><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+				</div>
+				<div class="col-lg-3 col-sm-4 hidden-xs">
+						<div class="relativeImg">
+							<div class="mask">
+								<span>
+									<img class="img-responsive" alt="Responsive image" src="./img/product/3.jpg">
+								</span>
+								<div class="maskIcon center-block">
+									<a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a>
+									<a href=""><i class="glyphicon glyphicon-eye-open"></i></a>
+									<a href=""><i style="margin-right:0;" class="glyphicon glyphicon-heart-empty"></i></a>
+								</div>
+								<div class="maskContent">
+									<div class="row">
+										<div class="col-xs-4">
+											<p>Sizes:</p>
+										</div>
+										<div class="col-xs-8">
+											<ul class="maskSize">
+												<li>XS</li>
+												<li>S</li>
+												<li>M</li>
+												<li>L</li>
+												<li style="margin-right:0">XL</li>
+												<div class="clearfix"></div>
+											</ul>			
+										</div>
+									</div>
+									<div class="row">
+											<div class="col-xs-4">
+													<p>Colors:</p>
+											</div>
+											<div class="col-xs-8">
+												<ul class="maskColor">
+													<li style="background-color: #66ccff"></li>
+													<li style="background-color: #FF7F50"></li>
+													<li style="background-color: #9ACD32"></li>
+													<li style="background-color: #B452CD"></li>
+													<li style="margin-right:0;background-color:#8B5742"></li>
+													<div class="clearfix"></div>
+												</ul>				
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="relativeProduct">
+								<div class="pull-left">
+									<h4>头戴式耳机</h4>
+									<p>流行</p>
+								</div>
+								<div class="pull-right">
+									<h4 style="text-align: right;">$ 99</h4>
+									<div><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+				</div>
+				<div class="col-lg-3 col-sm-4 hidden-xs">
+						<div class="relativeImg">
+							<div class="mask">
+								<span>
+									<img class="img-responsive" alt="Responsive image" src="./img/product/4.jpg">
+								</span>
+								<div class="maskIcon center-block">
+									<a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a>
+									<a href=""><i class="glyphicon glyphicon-eye-open"></i></a>
+									<a href=""><i style="margin-right:0;" class="glyphicon glyphicon-heart-empty"></i></a>
+								</div>
+								<div class="maskContent">
+									<div class="row">
+										<div class="col-xs-4">
+											<p>Sizes:</p>
+										</div>
+										<div class="col-xs-8">
+											<ul class="maskSize">
+												<li>XS</li>
+												<li>S</li>
+												<li>M</li>
+												<li>L</li>
+												<li style="margin-right:0">XL</li>
+												<div class="clearfix"></div>
+											</ul>			
+										</div>
+									</div>
+									<div class="row">
+											<div class="col-xs-4">
+													<p>Colors:</p>
+											</div>
+											<div class="col-xs-8">
+												<ul class="maskColor">
+													<li style="background-color: #66ccff"></li>
+													<li style="background-color: #FF7F50"></li>
+													<li style="background-color: #9ACD32"></li>
+													<li style="background-color: #B452CD"></li>
+													<li style="margin-right:0;background-color:#8B5742"></li>
+													<div class="clearfix"></div>
+												</ul>				
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="relativeProduct">
+								<div class="pull-left">
+									<h4>板鞋</h4>
+									<p>男士鞋</p>
+								</div>
+								<div class="pull-right">
+									<h4 style="text-align: right;">$ 25</h4>
+									<div><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i style="color:#9b9b9c" class="glyphicon glyphicon-star"></i></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!--------------------------- Information ------------------------->
+<div class="information">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div><img src="./img/footer-logo.png"></div>
+					<p class="info1">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod empor incididunt oloremque laudantium,</p>
+					<div class="info1-icon">
+						
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1 ">
+					<h3>ADDRESS</h3>
+					<p class="info1">
+						1025-1035 Park Ave,<br> 
+						New York,<br>
+						NY 10028, USA<br>
+						+1 123-456-7890	
+						sales@koolinc.com</p>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1">
+					<h3>COLLECTION</h3>
+					<ul class="info3">
+						<li>Men</li>
+						<li>Women</li>
+						<li>Kids</li>
+						<li>Accessories</li>
+						<li>Sale</li>
+						<li>Coming Soon</li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-6 col-md-offset-1 hidden-xs">
+					<h3>SHOP</h3>
+					<ul class="info3">
+						<li>About Us</li>
+						<li>Shipping Methods</li>
+						<li>Career</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--------------------------- Footer ------------------------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">© 2018 <span>wilylab</span> . All Rights Reserved</div>
+				<div class="col-sm-6 text-right"><img src="./img/payment.png"></div>
+			</div>
+		</div>
+	</div>
+	<button class="goTop"><i class="glyphicon glyphicon-arrow-up"></i></button>
+</body>
+<script src="./js/product-man.js"></script>
+<script src="./js/nav.js"></script>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>单页 ||MOON</title>
+	<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <!-- host -->
+	<link rel="stylesheet" type="text/css" href="css/host.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<style>
+		.banner{
+			height: 350px;
+			background:url(./img/page-banner.jpg) center no-repeat;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.banner h1{
+			color:#fff;
+			font-weight: bolder;
+			font-style: italic;
+			margin:0;
+			font-size: 50px;
+			letter-spacing: 5px;
+        }
+        .background{
+            width:100%;
+            background:#efefef;
+        }
+		.content{
+            margin:0 auto;
+			padding:65px 0;
+            width: 70%;
+            font-family: 'Montserrat';
+            font-size:16px;
+            line-height:1.5em;
+            color:#a59e9ee7;
+        }
+        .content p{
+            margin-bottom:25px;
+        }
+		
+	</style>
+</head>
+<body>
+ <!--------------------------- Header Nav ------------------------->
+ <div class="header-nav">
+		<div class="container">
+			<div class="row">
+				<div class="header-left col-xs-6">
+					<ul>
+						<li><a href="">注 册</a></li>
+						<li class="header-line"></li>
+						<li><a href="">登 陆</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="header-right col-xs-6">
+					<ul class="header-right-com">
+						<li class="header-right-mon"><span>USD<i class="glyphicon glyphicon-menu-down"></i></span>
+							<div class="clearfix"></div>
+							<ul class="header-menu1">
+								<em></em>
+								<li><a href="">USD</a></li>
+								<li><a href="">URO</a></li>
+								<li><a href="">GRP</a></li>
+							</ul>
+						</li>
+						<li class="header-right-lan"><span>语言<i class="glyphicon glyphicon-menu-down"></i></span>
+							<div class="clearfix"></div>
+							<ul class="header-menu2">
+								<em></em>
+								<li><a href="">西班牙语</a></li>
+								<li><a href="">法语</a></li>
+								<li><a href="">英语</a></li>
+							</ul>
+						</li>
+						<div class="clearfix"></div>
+					</ul>   
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--------------------------- Middle Nav ------------------------->
+	<div class="middle-nav container">
+		<div class='col-md-2 col-sm-6 col-xs-6'>
+			<a herf="" class="middle-logo"><img src="./img/logo.png"></a>
+		</div>
+		<div class='col-md-7 hidden-sm hidden-xs'>
+			<ul class="middle-nav1">
+				<li class="home">
+					<span>首页</span>
+					<ul class="homeMenu">
+						<em></em>
+						<li><a href="./host.html">首页一</a></li>
+						<li><a href="./host2.html">首页二</a></li>
+					</ul>
+				</li>
+				<li class="goods">
+					<span>商品</span>
+					<ul class="goodsMenu">
+						<em></em>
+						<li><span>配饰</span>
+							<ul class="goodsMenu2">
+								<li><a href="./product-list1.html">太阳镜</a></li>
+								<li><a href="./product-list1.html">皮革</a></li>
+								<li><a href="./product-list1.html">皮带</a></li>
+								<li><a href="./product-list1.html">戒指</a></li>
+								<li><a href="./product-list1.html">包包</a></li>
+								<li><a href="./product-list1.html">项链</a></li>
+							</ul>
+						</li>
+						<li><span>男装</span>
+							<ul class="goodsMenu2">
+								<li><a href="./product-list2.html">衬衫</a></li>
+								<li><a href="./product-list2.html">大衣</a></li>
+								<li><a href="./product-list2.html">牛仔裤</a></li>
+								<li><a href="./product-list2.html">皮衣</a></li>
+								<li><a href="./product-list2.html">夹克</a></li>
+								<li><a href="./product-list2.html">休闲裤</a></li>
+							</ul>
+						</li>
+						<li><span>女装</span>
+							<ul class="goodsMenu2">
+								<li><a href="./product-list3.html">衬衫</a></li>
+								<li><a href="./product-list3.html">连衣裙</a></li>
+								<li><a href="./product-list3.html">T恤</a></li>
+								<li><a href="./product-list3.html">吊带连衣裙</a></li>
+								<li><a href="./product-list3.html">牛仔裤</a></li>
+								<li><a href="./product-list3.html">休闲短裤</a></li>
+							</ul>
+						</li>
+						<img class="menuImg" src="./img/menu-image.png">
+						<div class="clearfix"></div>
+					</ul>
+				</li>
+				<li class="home">
+					<span class="underline">我的</span>
+					<ul class="homeMenu">
+						<em></em>
+						<li><a href="./shopping-car.html">购物车</a></li>
+						<li><a href="./checked.html">结算</a></li>
+						<li><a href="./receive.html">待收货</a></li>
+						<li><span class="home2">商品详情</span>
+							<ul class="homeMenu2">
+								<em></em>
+								<li><a href="./product-list1.html">商品一</a></li>
+								<li><a href="./product-list2.html">商品二</a></li>
+							</ul>
+						</li>
+						<li><a href="./single.html">单页</a></li>
+						<li><a href="./error404.html">404</a></li>
+					</ul>
+				</li>
+				<li class="blog"><span><a href="./blog.html">博客</a></span></li>
+				<li class="contact"><span><a href="./contact.html">联系</a></span></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<div class="col-md-3 col-sm-6 text-right sAndc">
+			<span class="middle-search hidden-xs">
+				<i class="searchIcon glyphicon glyphicon-search"></i>
+				<input class="search" type="text" name="" placeholder="搜索..."> 
+			</span>
+			<span class="middle-cart">
+				<i class="glyphicon glyphicon-shopping-cart"></i>
+				<ul class="checkedCart">
+						<em></em>
+						<li style="color:#9b9b9c;border-bottom:1px solid #9b9b9c;height:30px;line-height: 30px;letter-spacing: 2px;">购物车</li>
+						<li style="padding:15px 20px;">
+							<div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/1.jpg"></div>
+							<div class="putll-right" style="text-align: left;">
+								<div style="position: relative;">窄脚裤</div>
+								<div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+								<div style="color:#e2214b;font-size: 16px;">$ 99 × 1</div>
+								<i style="font-size:16px;position: absolute;color: #9b9b9c;top:3px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+							</div>
+						</li>
+						<li style="padding:15px 20px;">
+							<div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/2.jpg"></div>
+							<div class="putll-right" style="text-align: left;">
+								<div style="position: relative;">眼睛太阳镜</div>
+								<div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+								<div style="color:#e2214b;font-size: 16px;">$ 199 × 5</div>
+								<i style="font-size:16px;position: absolute;color: #9b9b9c;top:93px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li style="text-align: center;font-size:16px;border-top:1px solid #9b9b9c;border-bottom:1px solid #9b9b9c;padding:8px 0;">
+							<div class="pull-left" style="width:120px;">总数</div>
+							<div class="pull-right" style="width:120px;">$ 1094.99</div>
+							<div class="clearfix"></div>
+						</li>
+						<li style="padding:8px 0;color:#9b9b9c;font-size:12px">查看购物车<i style="font-size:10px;height:10px;line-height: 10px;font-weight: bolder;" class="glyphicon glyphicon-menu-right"></i></li>
+						<li style="background-color: #efefef;padding:5px 0">
+							<button class="enterCount"><a href="./shopping-car.html">进入结算</a></button>
+						</li>
+					</ul>
+			</span>
+		</div>
+	</div>
+<!-------------------------------------Content ----------------------------------->
+<div class="banner">
+	<h1>单页</h1>
+</div>
+<div class="background">
+    <div class="content">
+        <p>In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that’s filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content, say, a random text copied newspaper or the internet. The are to focus on the text, disregarding the layout and its elements. Besides, random text risks to be unintendedly humorous or offensive, an unacceptable risk in corporate environments.</p>
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula eget dolor aenean massa. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec vitae sapien ut libero venenatis faucibus Nulla consequat massa quis enim.</p>
+    </div>
+</div>
+<!--------------------------- Information ------------------------->
+<div class="information">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div><img src="./img/footer-logo.png"></div>
+				<p class="info1">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod empor incididunt oloremque laudantium,</p>
+				<div class="info1-icon">
+					
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1 ">
+				<h3>ADDRESS</h3>
+				<p class="info1">
+					1025-1035 Park Ave,<br> 
+					New York,<br>
+					NY 10028, USA<br>
+					+1 123-456-7890	
+					sales@koolinc.com</p>
+			</div>
+			<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1">
+				<h3>COLLECTION</h3>
+			    <ul class="info3">
+			    	<li>Men</li>
+			    	<li>Women</li>
+			    	<li>Kids</li>
+			    	<li>Accessories</li>
+			    	<li>Sale</li>
+			    	<li>Coming Soon</li>
+			    </ul>
+			</div>
+			<div class="col-md-2 col-sm-6 col-md-offset-1 hidden-xs">
+				<h3>SHOP</h3>
+			    <ul class="info3">
+			    	<li>About Us</li>
+			    	<li>Shipping Methods</li>
+			    	<li>Career</li>
+			    	<li>Contact</li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--------------------------- Footer ------------------------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 text-left">© 2018 <span>wilylab</span> . All Rights Reserved</div>
+			<div class="col-sm-6 text-right"><img src="./img/payment.png"></div>
+		</div>
+	</div>
+</div>
+<button class="goTop"><i class="glyphicon glyphicon-arrow-up"></i></button>
+</body>
+<script src="./js/nav.js">
+</script>
+</html>

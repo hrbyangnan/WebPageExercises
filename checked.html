@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>结算 ||MOON</title>
+	<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <!-- host -->
+	<link rel="stylesheet" type="text/css" href="css/host.css">
+    <link rel="stylesheet" type="text/css" href="css/shoppingcar.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+    <style>
+        .first{
+            display:none;
+        }
+        .second{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <!--------------------------- Header Nav ------------------------->
+<div class="header-nav">
+    <div class="container">
+        <div class="row">
+            <div class="header-left col-xs-6">
+                <ul>
+                    <li><a href="">注 册</a></li>
+                    <li class="header-line"></li>
+                    <li><a href="">登 陆</a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div class="header-right col-xs-6">
+                <ul class="header-right-com">
+                    <li class="header-right-mon"><span>USD<i class="glyphicon glyphicon-menu-down"></i></span>
+                        <div class="clearfix"></div>
+                        <ul class="header-menu1">
+                            <em></em>
+                            <li><a href="">USD</a></li>
+                            <li><a href="">URO</a></li>
+                            <li><a href="">GRP</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-right-lan"><span>语言<i class="glyphicon glyphicon-menu-down"></i></span>
+                        <div class="clearfix"></div>
+                        <ul class="header-menu2">
+                            <em></em>
+                            <li><a href="">西班牙语</a></li>
+                            <li><a href="">法语</a></li>
+                            <li><a href="">英语</a></li>
+                        </ul>
+                    </li>
+                    <div class="clearfix"></div>
+                </ul>   
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------- Middle Nav ------------------------->
+<div class="middle-nav container">
+    <div class='col-md-2 col-sm-6 col-xs-6'>
+        <a herf="" class="middle-logo"><img src="./img/logo.png"></a>
+    </div>
+    <div class='col-md-7 hidden-sm hidden-xs'>
+        <ul class="middle-nav1">
+            <li class="home">
+                <span>首页</span>
+                <ul class="homeMenu">
+                    <em></em>
+                    <li><a href="./host.html">首页一</a></li>
+                    <li><a href="./host2.html">首页二</a></li>
+                </ul>
+            </li>
+            <li class="goods">
+                <span>商品</span>
+                <ul class="goodsMenu">
+                    <em></em>
+                    <li><span>配饰</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list1.html">太阳镜</a></li>
+                            <li><a href="./product-list1.html">皮革</a></li>
+                            <li><a href="./product-list1.html">皮带</a></li>
+                            <li><a href="./product-list1.html">戒指</a></li>
+                            <li><a href="./product-list1.html">包包</a></li>
+                            <li><a href="./product-list1.html">项链</a></li>
+                        </ul>
+                    </li>
+                    <li><span>男装</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list2.html">衬衫</a></li>
+                            <li><a href="./product-list2.html">大衣</a></li>
+                            <li><a href="./product-list2.html">牛仔裤</a></li>
+                            <li><a href="./product-list2.html">皮衣</a></li>
+                            <li><a href="./product-list2.html">夹克</a></li>
+                            <li><a href="./product-list2.html">休闲裤</a></li>
+                        </ul>
+                    </li>
+                    <li><span>女装</span>
+                        <ul class="goodsMenu2">
+                            <li><a href="./product-list3.html">衬衫</a></li>
+                            <li><a href="./product-list3.html">连衣裙</a></li>
+                            <li><a href="./product-list3.html">T恤</a></li>
+                            <li><a href="./product-list3.html">吊带连衣裙</a></li>
+                            <li><a href="./product-list3.html">牛仔裤</a></li>
+                            <li><a href="./product-list3.html">休闲短裤</a></li>
+                        </ul>
+                    </li>
+                    <img class="menuImg" src="./img/menu-image.png">
+                    <div class="clearfix"></div>
+                </ul>
+            </li>
+            <li class="home">
+                <span class="underline">我的</span>
+                <ul class="homeMenu">
+                    <em></em>
+                    <li><a href="./shopping-car.html">购物车</a></li>
+                    <li><a href="./checked.html">结算</a></li>
+                    <li><a href="./receive.html">待收货</a></li>
+                    <li><span class="home2">商品详情</span>
+                        <ul class="homeMenu2">
+                            <em></em>
+                            <li><a href="./product-list1.html">商品一</a></li>
+                            <li><a href="./product-list2.html">商品二</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./single.html">单页</a></li>
+                    <li><a href="./error404.html">404</a></li>
+                </ul>
+            </li>
+            <li class="blog"><span><a href="./blog.html">博客</a></span></li>
+            <li class="contact"><span><a href="./contact.html">联系</a></span></li>
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+    <div class="col-md-3 col-sm-6 text-right sAndc">
+        <span class="middle-search hidden-xs">
+            <i class="searchIcon glyphicon glyphicon-search"></i>
+            <input class="search" type="text" name="" placeholder="搜索..."> 
+        </span>
+        <span class="middle-cart">
+            <i class="glyphicon glyphicon-shopping-cart"></i>
+            <ul class="checkedCart">
+                    <em></em>
+                    <li style="color:#9b9b9c;border-bottom:1px solid #9b9b9c;height:30px;line-height: 30px;letter-spacing: 2px;">购物车</li>
+                    <li style="padding:15px 20px;">
+                        <div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/1.jpg"></div>
+                        <div class="putll-right" style="text-align: left;">
+                            <div style="position: relative;">窄脚裤</div>
+                            <div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+                            <div style="color:#e2214b;font-size: 16px;">$ 99 × 1</div>
+                            <i style="font-size:16px;position: absolute;color: #9b9b9c;top:3px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+                        </div>
+                    </li>
+                    <li style="padding:15px 20px;">
+                        <div class="pull-left" style="margin-right:10px;"><img src="./img/header-cart/2.jpg"></div>
+                        <div class="putll-right" style="text-align: left;">
+                            <div style="position: relative;">眼睛太阳镜</div>
+                            <div style="color: #9b9b9c;font-size: 12px;">Color: Philipha Wash</div>
+                            <div style="color:#e2214b;font-size: 16px;">$ 199 × 5</div>
+                            <i style="font-size:16px;position: absolute;color: #9b9b9c;top:93px;right:10px;"class="glyphicon glyphicon-remove-circle"></i>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li style="text-align: center;font-size:16px;border-top:1px solid #9b9b9c;border-bottom:1px solid #9b9b9c;padding:8px 0;">
+                        <div class="pull-left" style="width:120px;">总数</div>
+                        <div class="pull-right" style="width:120px;">$ 1094.99</div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li style="padding:8px 0;color:#9b9b9c;font-size:12px">查看购物车<i style="font-size:10px;height:10px;line-height: 10px;font-weight: bolder;" class="glyphicon glyphicon-menu-right"></i></li>
+                    <li style="background-color: #efefef;padding:5px 0">
+                        <button >进入结算</button>
+                    </li>
+                </ul>
+        </span>
+    </div>
+</div>
+<!-------------------------------------Content ----------------------------------->
+<div class="major">
+	<div class="container major-page">
+		<div class="major-title center-block">
+			<ul class="row">
+				<li class="col-sm-4 cart"><span>1</span><div>购物车</div></li>
+				<li class="col-sm-4 account clicked"><span>2</span><div>结算</div></li>
+				<li class="col-sm-4 receive"><span>3</span><div>待收货</div></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div> 
+<!---------------------------First(Shopping car) ------------------>
+        <div class="first">
+        	<h3>购物车</h3>
+        	<div class="table-responsive">
+        		<table class="first-table table" style="border-bottom: 1px solid #ddd;">
+        			<tr>
+        				<th class="col-md-4 product" style="padding-left:50px;">商品</th>
+        				<th class="col-md-2">价格</th>
+        				<th class="col-md-2">数量</th>
+        				<th class="col-md-2">全部</th>
+        				<th class="col-md-2">移除</th>
+        			</tr>
+        			<tr>
+        				<td style="padding:35px 8px;">
+	        				<div>	
+	        					<a href=""><img src="./img/cart-product/1.jpg"></a>
+	        					<div class="car-txt">
+		        					<p><a href=''>时尚短袖</a></p>
+		        					<div>尺寸：M</div>
+		        					<div>颜色：深蓝</div>
+	        					</div>
+	        				</div>
+        				</td>
+        				<td><div class="pricetag">$ 238</div></td>
+        				<td>
+        					<div class="number-com">
+        						<span class="subtract">-</span>
+        						<input type="text" class="quantity" value="1" >
+        						<span class="plus">+</span>
+        					</div>
+        				</td>
+        				<td>
+        					<div class="price">$ 238.00</div>
+        				</td>
+        				<td>
+        					<div class="remove">
+        						<i class="glyphicon glyphicon-remove-circle"></i>
+        					</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td style="padding:35px 8px;">
+	        				<div>	
+	        					<a href=""><img src="./img/cart-product/2.jpg"></a>
+	        					<div class="car-txt">
+		        					<p><a href=''>长裙</a></p>
+		        					<div>尺寸：M</div>
+		        					<div>颜色：深蓝</div>
+	        					</div>
+	        				</div>
+        				</td>
+        				<td><div class="pricetag">$ 356</div></td>
+        				<td>
+        					<div class="number-com">
+        						<span class="subtract">-</span>
+        						<input type="text" class="quantity" value="1" >
+        						<span class="plus">+</span>
+        					</div>
+        				</td>
+        				<td>
+        					<div class="price">$ 356.00</div>
+        				</td>
+        				<td>
+        					<div class="remove">
+        						<i class="glyphicon glyphicon-remove-circle"></i>
+        					</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td style="padding:35px 8px;">
+	        				<div>	
+	        					<a href=""><img src="./img/cart-product/3.jpg"></a>
+	        					<div class="car-txt">
+		        					<p><a href=''>睡裙</a></p>
+		        					<div>尺寸：M</div>
+		        					<div>颜色：白色</div>
+	        					</div>
+	        				</div>
+        				</td>
+        				<td><div class="pricetag">$ 128</div></td>
+        				<td>
+        					<div class="number-com">
+        						<span class="subtract">-</span>
+        						<input type="text" class="quantity" value="1" >
+        						<span class="plus">+</span>
+        					</div>
+        				</td>
+        				<td>
+        					<div class="price">$ 128.00</div>
+        				</td>
+        				<td>
+        					<div class="remove">
+        						<i class="glyphicon glyphicon-remove-circle"></i>
+        					</div>
+        				</td>
+        			</tr>
+        		</table>
+            </div>
+            <div class="pay">
+        		<div class="col-md-7">
+	        		<div class="row">
+	        			<div class="col-sm-6" style="margin-bottom:20px">
+	        				<p>运费</p>
+	        				<select class="form-control" style="border-radius:0;border-color:#9b9b9c">
+							    <option>省份</option>
+							    <option>市</option>
+							    <option>街道</option>
+							</select>
+							<select class="form-control" style="border-radius:0;border-color:#9b9b9c">
+							    <option>市</option>
+							    <option>街道</option>
+							</select>
+							<select class="form-control" style="border-radius:0;border-color:#9b9b9c">
+							    <option>街道</option>
+							</select>
+							<div><button class="btn1">运费</button></div>
+	        			</div>
+	        			<div class="col-sm-6" style="margin-bottom:20px">
+	        				<p>优惠券</p>
+	        				<div class="coupon"><i style="line-height:34px;font-size:14px;color:#666666;">可以使用优惠券</i></div>
+	        				<input type="text" class="form-control" style="border-radius: 0;border-color:#9b9b9c;outline: none;" placeholder="填写地址!">
+	        				<button class="btn2">使用优惠券</button>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="col-md-5 payment">
+        			<p>付款方式</p>
+		        	<div class="payment1">
+		        		<div>	
+		        			<span class="pull-left">合计</span>
+		        			<span class="pull-right total">$ 722.00</span>
+		        			<div class="clearfix"></div>
+		        		</div>
+	        			<div>	
+		        			<span class="pull-left">配送</span>
+		        			<span class="pull-right">免费配送</span>
+		        			<div class="clearfix"></div>
+		        		</div>
+		        	</div>
+        			<div class="totalPrice total">$ 722.00</div>
+        			<div class="clearfix"></div>
+        			<button class="btn1 center-block caculation">结算</button>
+        		</div>
+            </div>
+        </div>
+
+<!--------------------------- Second(Check out) ------------------------->
+<div class="second">
+	<h1>CHECKOUT</h1>
+	<p>Personal Information and Payment</p>
+	<div class="row">
+		<div class="col-md-6">
+			<h3 class="bill">BILLING DETAILS</h3>
+			<div class="second-form">
+    			<input type="text" placeholder="First Name*">
+    			<input type="text" placeholder="Last Name*">
+    			<input type="text" placeholder="Company Name">
+    			<input type="email" placeholder="Email Address*">
+    			<input type="text" placeholder="Phone*">
+    			<select>
+    				<option>United States</option>
+    				<option>United States</option>
+    				<option>United States</option>
+    			</select>
+    			<input type="text" placeholder="Postcode*">
+    			<textarea class="address" name="Address" rows="4" placeholder="Address*"></textarea>
+  			</div>
+  			<div class="shipping">
+  				<input type="checkbox" id="ships"><label for="ships"></label><span class="shipCheck">SHIP TO DIFFERENT ADDRESS? </span>
+  				<div class="second-form" style="margin-top:30px">
+	    			<input type="text" placeholder="First Name*">
+	    			<input type="text" placeholder="Last Name*">
+	    			<input type="text" placeholder="Company Name">
+	    			<input type="email" placeholder="Email Address*">
+	    			<input type="text" placeholder="Phone*">
+	    			<select>
+	    				<option>United States</option>
+	    				<option>United States</option>
+	    				<option>United States</option>
+	    			</select>
+	    			<input type="text" placeholder="Postcode*">
+	    			<textarea class="address" name="Address" rows="4" placeholder="Address*"></textarea>
+	    			<textarea class="address" name="requirement" rows="4" placeholder="Inclue custom Requirements for this order"></textarea>
+  				</div>
+  			</div>
+		</div>
+		<div class="col-md-6 ordered">
+			<h3 class="bill">YOUR ORDER</h3>
+			<table class="table orderTable" frame="void" rules="rows">
+				<tr style="font-size:18px;color: #000;height:30px;border-bottom: 4px double #efefef;">
+					<th>Product</th>
+					<th style="text-align:right;">Total</th>
+				</tr>
+				<tr>
+					<td>Popline Tops </td>
+					<td style="text-align:right;" class="checkedBill">$ 476.00</td>
+				</tr>
+				<tr>
+					<td>Shanos Matte Blue </td>
+					<td style="text-align:right;" class="checkedBill">$ 356.00</td>
+				</tr>
+				<tr>
+					<td>Minrova Sleep Wear </td>
+					<td style="text-align:right;" class="checkedBill">$ 128.00</td>
+				</tr>
+				<tr style="font-weight: bolder;">
+					<td>CART SUBTOTAL <br>SHIPPING & HANDLING</td>
+					<td style="text-align:right;">$ 0.00<br>FREE SHIPPING</td>
+				</tr>
+				<tr style="font-weight: bolder;border-bottom: 4px double #efefef;">
+					<td>VAT</td>
+					<td style="text-align:right;">$ 0.00</td>
+				</tr>
+				<tr style="font-size:20px;font-weight: bolder;">
+					<td style="color:#000;">GRAND TOTAL</td>
+					<td style="text-align:right;color:#e33057;" class="total">$ 722.00</td>
+				</tr>
+			</table>
+			<div class="payMethod">
+				<h3 class="bill" style="padding-bottom:12px;border-bottom: 4px double #efefef;">PAYMENT METHOD</h3>
+				<div class="payFor">
+					<input type="radio" checked name="payMethod" id="payMethod"><label for="payMethod"></label><span class="payCheck">Cheque Payment</span>
+					<p class="payNotice">Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+					<input type="radio" name="payMethod" id="payMethod1"><label for="payMethod1"></label><span class="payCheck">PayPal</span>
+					<p class="payNotice">Pay via PayPal you can pay with your credit card if you don’t have a PayPal account.</p>
+				</div>
+				<div class="iconPaypal">
+					<a class="imgPaypal" href=""><img src="./img/payment/paypal.png"></a>
+					<div class="text-center">
+						<span class="visaJcb">
+							<img class="pull-left" src="./img/payment/visa.png">
+							<img class="pull-right" src="./img/payment/jcb.png">
+							<div class="clearfix"></div>
+						</span>
+						<span class="mastercard">
+							<img class="pull-left" src="./img/payment/express.png">
+							<img class="pull-right"  src="./img/payment/mastercard.png">
+							<div class="clearfix"></div>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--------------------------- Third(Order) ------------------------->
+    <div class="third">
+    	<p class="thirdAttention text-center">Thank you. Your Order Has been Received.</p>
+    	<div class="row text-center">
+			<div class="col-xs-6 col-sm-3 receivedContent">
+				<span>ORDER NO</span>
+				<div>K 265798</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 receivedContent">
+				<span>DATE</span>
+				<div>DEC 31,2018</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 receivedContent">
+				<span>TOTAL</span>
+				<div class="total">$ 722.00</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 receivedContent">
+				<span>PAYMENT METHOD</span>
+				<div>CHECK PAYMENT</div>
+			</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-6">
+    			<h3 class="bill">ORDER DETAILS</h3>
+				<table style="margin-bottom: 50px;" class="table orderTable" frame="void" rules="rows">
+					<tr style="font-size:18px;color: #000;height:30px;border-bottom: 4px double #efefef;">
+						<th>Product</th>
+						<th style="text-align:right;">Total</th>
+					</tr>
+					<tr>
+						<td>Popline Tops</td>
+						<td style="text-align:right;" class="received3">$ 476.00</td>
+					</tr>
+					<tr>
+						<td>Shanos Matte Blue</td>
+						<td style="text-align:right;" class="received3">$ 356.00</td>
+					</tr>
+					<tr>
+						<td>Minrova Sleep Wear</td>
+						<td style="text-align:right;" class="received3">$ 128.00</td>
+					</tr>
+					<tr style="font-weight: bolder;">
+						<td>CART SUBTOTAL <br>SHIPPING & HANDLING</td>
+						<td style="text-align:right;">$ 0.00<br>FREE SHIPPING</td>
+					</tr>
+					<tr style="font-weight: bolder;border-bottom: 4px double #efefef;">
+						<td>VAT</td>
+						<td style="text-align:right;">$ 0.00</td>
+					</tr>
+					<tr style="font-size:20px;font-weight: bolder;">
+						<td style="color:#000;">GRAND TOTAL</td>
+						<td style="text-align:right;color:#e33057;" class="total">$ 722.00</td>
+					</tr>
+				</table>
+    		</div>
+    		<div class="col-md-5 col-md-offset-1">
+    			<div class="receivedInfo">
+    				<h3 class="bill">CUSTOMER DETAILS</h3>
+    				<div><span>Name:</span><span>Mellisa Wright</span></div>
+                    <div><span>Email:</span><span>mellisa_W80@outlook.com</span></div>
+                    <div><span>Telephone:</span><span>+ 123 456 798</span></div>
+    			</div>
+    			<div class="receivedAdd">
+    				<h3 class="bill">BILLING ADDRESS</h3>
+    				<h5>Mellisa Wright</h5>
+    				<p>5722 Sam Houston Cir <br>Austin, TX 78731<br>Phone : + 123 456 789</p>
+    			</div>
+    			<div class="receivedAdd">
+    				<h3 class="bill">SHIPPING ADDRESS</h3>
+    				<h5>Mellisa Wright</h5>
+    				<p>5722 Sam Houston Cir <br>Austin, TX 78731<br>Phone : + 123 456 789</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>    
+    </div>
+</div>
+<!--------------------------- Search ------------------------->
+<div class="message">
+	<div class="text-center messageText" >
+		<p>得到任何报价的通知！</p>
+		<p>订阅我们的通讯，已获得有关促销活动的通知</p>
+		<div class="input-group message1">
+		    <input type="text" class="form-control" placeholder="您的电邮地址" style="border-radius:0;">
+		    <span class="input-group-btn">
+	        		<button class="btn btn-default btn1" type="button" style="border-radius:0;">提交</button>
+	      	</span>
+	    </div>
+    </div>
+</div>
+<!--------------------------- Brand ------------------------->
+<div class="brandArea container">
+	<div class="row">
+		<div class="col-md-2 col-sm-3">
+			<h1>合作品牌</h1>
+		</div>
+	    <div class="col-md-10 col-sm-9 brandPhoto text-center" >
+	    	<div class="row">
+		    	<span class="col-xs-10 brandImg">
+		    		<img src="./img/brands/1.png">
+		    		<img src="./img/brands/2.png">
+		    	    <img src="./img/brands/3.png">
+		    	    <img class="brand4" src="./img/brands/4.png">
+		    	</span>
+		    </div>
+	    </div>
+	</div>
+</div>
+<!--------------------------- Information ------------------------->
+<div class="information">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div><img src="./img/footer-logo.png"></div>
+				<p class="info1">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod empor incididunt oloremque laudantium,</p>
+				<div class="info1-icon">
+					
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1 ">
+				<h3>ADDRESS</h3>
+				<p class="info1">
+					1025-1035 Park Ave,<br> 
+					New York,<br>
+					NY 10028, USA<br>
+					+1 123-456-7890	
+					sales@koolinc.com</p>
+			</div>
+			<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1">
+				<h3>COLLECTION</h3>
+			    <ul class="info3">
+			    	<li>Men</li>
+			    	<li>Women</li>
+			    	<li>Kids</li>
+			    	<li>Accessories</li>
+			    	<li>Sale</li>
+			    	<li>Coming Soon</li>
+			    </ul>
+			</div>
+			<div class="col-md-2 col-sm-6 col-md-offset-1 hidden-xs">
+				<h3>SHOP</h3>
+			    <ul class="info3">
+			    	<li>About Us</li>
+			    	<li>Shipping Methods</li>
+			    	<li>Career</li>
+			    	<li>Contact</li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--------------------------- Footer ------------------------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 text-left">© 2018 <span>wilylab</span> . All Rights Reserved</div>
+			<div class="col-sm-6 text-right"><img src="./img/payment.png"></div>
+		</div>
+	</div>
+</div>
+<button class="goTop"><i class="glyphicon glyphicon-arrow-up"></i></button>
+</body>
+<script src="./js/shopping-car.js"></script>
+<script src="./js/nav.js"></script>
+</html>

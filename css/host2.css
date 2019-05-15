@@ -1,0 +1,252 @@
+.bg2{
+	position: relative;
+	overflow: hidden;
+}
+.containImg2{
+	width:100%;;
+	position: absolute;
+	top:0;
+}
+.centerImg2{
+	width:65%;
+	margin:0 auto;
+	position: relative;
+	display: flex;
+}
+.layer21{
+	width:45%;
+	position: absolute;
+	top:40%;
+	right:20%;
+	transform:translate(0,55%);
+	animation: layer21 4s;
+}
+.layer22{
+	width:35%;
+	position: absolute;
+	top:40%;
+	right:5%;
+	transform:translate(0,40%);
+	animation: layer22 5s;
+}
+.centerImgBtn2{
+	position: absolute;
+	transform:translate(0,35%);
+	animation: centerP2 5s;
+}
+.centerImgBtn2 h1{
+	font-size:66px;
+	font-weight: bolder;
+	color:#e2214b;
+	font-style: italic;
+	animation: h1 1s;
+}
+.centerImgBtn2 p{
+	margin:25px 0;
+	color:rgb(153, 141, 141);
+	animation: p 2s;
+}
+.centerImgBtn2 button{
+	outline:none;
+	border:1px solid #272727;
+	padding:5px 15px;
+	background-color:transparent;
+	margin-top:50px;
+	animation: button 3s;
+}
+.centerImgBtn2 button:hover{
+	background:#272727;
+	color:#fff;
+}
+@keyframes h1
+{
+	0%{opacity:0;transform:translateX(-10%);}
+	30%{opacity:0;transform:translateX(-5%);}
+	100%{opacity:1;transform:translateX(0%);}
+}
+@keyframes p
+{
+	0%{opacity:0;transform:translateX(-10%);}
+	50%{opacity:0;transform:translateX(-6%);}
+	100%{opacity:1;transform:translateX(0%);}
+}
+@keyframes button
+{
+	0%{opacity:0;transform:translateX(-10%);}
+	70%{opacity:0;transform:translateX(-8%);}
+	100%{opacity:1;transform:translateX(0%);}
+}
+@keyframes layer21
+{
+	0%{opacity:0;transform:translate(20%,55%);}
+	70%{opacity:0;transform:translate(10%,55%);}
+	100%{opacity:1;transform:translate(0%,55%);}
+}
+@keyframes layer22
+{
+	0%{opacity:0;transform:translate(20%,40%);}
+	70%{opacity:0;transform:translate(10%,40%);}
+	100%{opacity:1;transform:translate(0%,40%);}
+}
+
+.whiteBag{
+	position:relative;
+}
+.whiteBag>div{
+	position: absolute;
+	width:100%;
+	text-align: center;
+	top:5%;
+}
+.whiteBag h4{
+	font-size:28px;
+}
+.whiteBag h1{
+	font-size:50px;
+	font-weight:bolder;
+}
+.proBtn1{
+	outline: none;
+	border:2px solid #272727;
+	background:transparent;
+	padding:5px 30px;
+	font-size:20px;
+	margin-top:10px;
+}
+.proBtn1:hover{
+	background:#272727;
+	color:#fff;
+}
+.youngLady{
+	position:relative;
+}
+.youngLady>div{
+	position: absolute;
+	top:10%;
+	left:10%;
+}
+.youngLady h4{
+	font-size:24px;
+	color:#6b5848;
+}
+.youngLady h1{
+	font-size:48px;
+	color:#6b5848;
+	font-weight:bolder;
+}
+.jeans{
+	position:relative;
+}
+.jeans>div{
+	position: absolute;
+	top:10%;
+	left:15%;
+	text-align: center;
+}
+.jeans h1{
+	font-weight:bolder;
+	font-size:44px;
+	margin:0 auto;
+}
+.jeans h1:first-child{
+	letter-spacing: 12px;
+}
+.jeans p{
+	font-size:24px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.colShoe1{
+	position:relative;
+}
+.colShoe1>div{
+	position: absolute;
+	top:10%;
+	width:40%;
+	margin-left:10%;
+}
+.colShoe1>div span{
+	display:block;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background-color:#e2214b;
+	color:#fff;
+	font-size:18px;
+	font-weight:bolder;
+}
+.colShoe1>div h1{
+	font-weight:bolder;
+	font-size:46px;
+	color:#c7444a;
+}
+.colShoe1>div p{
+	color:rgb(92, 86, 86);
+}
+.sales{
+	position: relative;
+}
+.sales>div{
+	position: absolute;
+	width:100%;
+	top:3%;
+	text-align: center;
+	color:#fff;
+}
+.sales h1{
+	font-weight:bolder;
+	font-size:60px;
+}
+.sales h4{
+	font-size:34px;
+	font-weight:bolder;
+	padding-right:45%;
+}
+.sales h2{
+	font-size:80px;
+	font-weight:bolder;
+	color:#c7ae75;
+}
+.sales button{
+	border:2px solid #fff;
+}
+.sales button:hover{
+	background:#fff;
+	color:#337ab7;
+}
+.woman{
+	position:relative;
+}
+.woman>div{
+	position: absolute;
+	width:100%;
+	text-align: center;
+	bottom:2%;
+	color:#fff;
+}
+.woman h1{
+	font-weight:bolder;
+	font-size:50px;
+}
+.classic{
+	position: relative;
+}
+.classic>div{
+	position: absolute;
+	width:100%;
+	text-align: center;
+	top:15%;
+	color:#272727;
+}
+.classic h1{
+	font-weight:bolder;
+}
+.imgPro{
+	transition:box-shadow 0.5s;
+	cursor: pointer;
+}
+.boxShadow{
+	box-shadow:0 0 20px #272727;
+	z-index: 2;
+}

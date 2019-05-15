@@ -1,0 +1,130 @@
+
+.relativeProduct{
+    background-color:#fff;
+    padding: 10px 15px;
+    font-weight: bolder;
+}
+.relativeProduct h4{
+    font-weight: bolder;
+    color:#272727;
+}
+.relativeProduct p{
+    color:#9b9b9c;
+}
+.relativeProduct>.pull-right>div i{
+    font-size:14px;
+    margin-left:2px;
+    color:#ffcc00;
+}
+.maskContainer>.img-responsive{
+    width: 100%;
+}
+.mask{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(226,33,75,0);
+    -webkit-transition:background-color 1s;
+}
+.maskCover{
+    display: block;
+    width:100%;
+    position:relative;
+}
+.maskCover:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(226,33,75);
+    opacity:0.8;
+    width: 100%;
+    height: 100%;
+    animation:eb2214b 1s;
+}
+@keyframes eb2214b
+{
+    0%{opacity:0}
+    100%{opacity:0.8}
+}
+.maskContent{
+    width: 100%;
+    height:80px;
+    background-color:#f7f7f7;
+    position: absolute;
+    bottom: 0;
+    padding:5px 15px;
+    overflow:hidden;
+    display: none;
+}
+.maskContent>.col-xs-4>p{
+    font-size:16px;
+}
+.maskContent>.col-xs-8>p{
+    font-size: 14px;
+}
+.maskSize li{
+    list-style: none;
+    float:left;
+    margin-right:7px;
+    color:#9b9b9c;
+}
+.maskColor li{
+    list-style: none;
+    float:left;
+    width:12px;
+    height:12px;
+    border-radius:6px;
+    margin-top:2px;
+    margin-right:5px;
+}
+.maskIcon{
+    text-align: center;
+    width:100%;
+    height:100%;
+    /*bootstrap*/
+
+    position:absolute;
+    transform:translate(0,-65%);
+    display:none;
+    
+}
+.maskIconAni{
+    animation:maskIcon 0.8s;
+}
+@keyframes maskIcon{
+    0% {transform:translate(0,-100%);}
+    5%{transform:translate(0,-90%);}
+    50% {transform:translate(0,-60%);}
+    70% {transform:translate(0,-68%);}
+    100% {transform:translate(0,-65%);}
+}
+.maskIcon i{
+    color:#fff;
+    font-size: 24px;
+    margin-right:20px;
+}
+.smallImg{
+    list-style: none;
+}
+.smallImg li{
+    float: left;
+    width:25%;
+    text-align: center;
+    cursor: pointer;
+}
+.smallImg li img{
+    width:110px;
+}
+.active1{
+    border:2px solid #666666;
+}
+.active2{
+    box-shadow: 0px 0px 5px #666; 
+}
+.relativeImg>div:hover{
+    cursor: pointer;
+}
+.relativeBanner{
+    overflow: hidden;
+}
